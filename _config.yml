@@ -13,15 +13,15 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://anuschka.github.io/
 baseurl:
-title: Ana Sustic
-author: Ana Sustic
+title: Anu'schka
+author: Anu'schka
 description: Personal blog and resume
 avatar: profile.gif
 #email: ana@sustic.com
 github: anuschka # username
 twitter: AnuschkaSs
 linkedin: anamarija-sustic-12402514
-#stackoverflow: users/3615847/anuschka   #e.g: users/2735833/proton1h1
+stackoverflow: users/3615847/anuschka   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
 #disqus: username
 #google_analytics: UA-69391421-1
