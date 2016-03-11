@@ -14,10 +14,10 @@ Django testing is an excellent way to test models and views in Django. I wrote a
 RequestFactory and <a href="https://docs.djangoproject.com/en/1.8/topics/testing/tools/#the-test-client">Client</a> have some very different use-cases. To put it in a single sentence: RequestFactory returns a request, while Client returns a response.
 The RequestFactory does what it says - it's a factory to create request objects. Nothing more, nothing less.
 The Client is used to fake a complete request-response cycle. It will create a request object, which it then passes through a WSGI handler. This handler resolves the url, calls the appropriate middleware, and runs the view. It then returns the response object. It has the added benefit that it gathers a lot of extra data on the response object that is extremely useful for testing.
-The RequestFactory doesn't actually touch any of your code, but the request object can be used to test parts of your code that require a valid request. The Client runs your views, so in order to test your views, you need to use the Client and inspect the response. Be sure to check out the documentation on the Client.
+The RequestFactory doesn't actually touch any of your code, but the request object can be used to test parts of your code that require a valid request. The Client runs your views, so in order to test your views, you need to use the Client and inspect the response.
 
 This behavior is best noted in the code below where RequestFactory for AnonymousUser returns a redirect (302) while Client returns a page not found (404)
- when accessing a ```/qcapp/```, a view that does not exist in the app. 
+ when accessing a ```/qcapp/```, a view that does not exist in the app.
 
 <pre>
 <code>
@@ -52,7 +52,7 @@ def test_our_view(self):
 </code>
 </pre>
 
-I also noted (through Skye share desktop session with Maksim) that I can configure my <a href="https://atom.io/>ATOM</a> better.
+I also noted (through Skye share desktop session with Maksim) that I can configure my <a href="https://atom.io/"">ATOM</a> better.
 
 Configure ATOM-> Packages → Settings View → and then follow this <a href="http://www.marinamele.com/install-and-configure-atom-editor-for-python">tutorial</a>.
 
@@ -70,9 +70,3 @@ from .models import SimpleItem
 admin.site.register(SimpleItem)
 </code>
 </pre>
-
-
-
-Question:
-request = factory.get('/qcapp/') should return a 404 but instead returns 302
-example when I go http://127.0.0.1:8000/qcapp/ I get a 404 since (no view defined for /qcapp)
