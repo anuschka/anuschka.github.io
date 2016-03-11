@@ -34,6 +34,7 @@ After reviewing my simple app on github Maksim adviced me to read more on the <a
 He also adviced me to move the ```mysite/urls.py``` and ```mysite/views.py``` from ```mysite``` to ```qcapp```. This way only ```settings.py``` and ```wsgi.py``` remain in then
 ```mysite``` directory and everything else moves in the ```app``` directory.
 
-I find the Skype sessions with <a href="https://www.toptal.com/resume/maksim-sipos">Maksim</a> really valuable. It is so nice to have a mentor look at your code and advice you along the way.
+I find the Skype sessions with <a href="https://www.toptal.com/resume/maksim-sipos">Maksim</a> really valuable. It is so nice to have a mentor look at your code and advice you along the way <i class="fa fa-smile-o"></i>
+
 
 ### Thanks Maksim!
