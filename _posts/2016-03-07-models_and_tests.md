@@ -52,7 +52,7 @@ def test_our_view(self):
 </code>
 </pre>
 
-I also noted (through Skye share desktop session with Maksim) that I can configure my <a href="https://atom.io/"">ATOM</a> better.
+I also noted (through Skye share desktop session with Maksim) that I can configure my <a href="https://atom.io/">ATOM</a> better.
 
 Configure ATOM-> Packages → Settings View → and then follow this <a href="http://www.marinamele.com/install-and-configure-atom-editor-for-python">tutorial</a>.
 
