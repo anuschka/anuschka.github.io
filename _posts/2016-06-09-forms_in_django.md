@@ -30,4 +30,4 @@ His suggestion was to:
 * use the get_object_or_404 function in the view since it raises Http404 instead of the model’s DoesNotExist exception.
 * user regular expressions to form the url for a specific record `r'^reagent/([0-9]+)/edit/$'`
 
-Since I had trouble sharing my working directory using VMWare Player between my Ubuntu VM and Pinegrow that works on my master WIN10, Maksim suggested I give <a href="https://www.virtualbox.org/VirtualBox> VirtualBox</a> a try.
+Since I had trouble sharing my working directory using VMWare Player between my Ubuntu VM and Pinegrow that works on my master WIN10, Maksim suggested I give <a href="https://www.virtualbox.org/VirtualBox"> VirtualBox</a> a try.
