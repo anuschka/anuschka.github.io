@@ -21,5 +21,10 @@ if form.is_valid():
         return HttpResponseRedirect('/reagent/')
 </code>
 </pre>
-* render form error messages as described <a href="https://docs.djangoproject.com/en/1.9/topics/forms/">here</a> or use  django_bootstrap3
+* render form error messages as described <a href="https://docs.djangoproject.com/en/1.9/topics/forms/">here</a> or use  django_bootstrap3 as an alternative solution. django_bootstrap3
 *
+
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
