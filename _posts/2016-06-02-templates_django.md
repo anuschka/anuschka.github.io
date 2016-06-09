@@ -8,7 +8,7 @@ tags:
 
 During our weekly Skype meeting Maksim and I discussed extending templates in Django. What does this mean? It means that you can use the same parts of your HTML for different pages of your website.
 
-It meant that I could create a new template called <a href="https://github.com/anuschka/QCapp/blob/master/qcapp/templates/internal_page.html"> internal_page.html</a> that contains the navigation and footer section since these appear on every page. Then in my regular template I use `{% extends "internal_page.html" %}`.
+It meant that I could create a new template called <a href="https://github.com/anuschka/QCapp/blob/master/qcapp/templates/internal_page.html"> internal_page.html</a> that contains the navigation and footer section since these appear on every page. Then in my regular template I use {% highlight %}{% extends "internal_page.html" %}{% endhighlight %}.
 
 We also talked about <a href="https://docs.djangoproject.com/en/1.9/ref/templates/language/#id1">
 template inheritance </a>. All the block tag does is to tell the template engine that a child template may override those portions of the template.
