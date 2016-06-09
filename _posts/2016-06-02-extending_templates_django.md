@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Extending templates in django
+title:  Templates in django
 tags:
 - Blog
 - Post
