@@ -6,8 +6,20 @@ tags:
 - Post
 ---
 
+During our weekly Skype meeting Maksim and I discussed Forms in Django. Maksim reviewed the new code on git with emphasys on <a href="https://github.com/anuschka/QCapp/blob/master/qcapp/templates/reagents_new.html">the reagents_new</a> form.
 
+My questions for Maksim were related to the form submit/save functionality, form input id's and form validation.
 
-We discussed <a href="https://docs.djangoproject.com/en/1.9/topics/db/models/">Models</a> and <a href="https://docs.djangoproject.com/en/1.9/topics/db/models/">testing</a> in Django over our, at this point, regular Skype session with Maksim.
+Maksim suggested:
+* using Django <a href="https://docs.djangoproject.com/en/1.9/topics/forms/modelforms/">ModelForm</a> since I am using the same fields in the form as I already have defined in the data model (no need to duplicate descriptions)
+* use HttpResponseRedirect when the form is valid
 
-During our conversation I discovered <a href="https://www.linuxmint.com/">Linux MINT</a> would be something to try for development Desktop OS.
+<pre>
+<code>
+if form.is_valid():
+        form.save()
+        return HttpResponseRedirect('/reagent/')
+</code>
+</pre>
+* render form error messages as described <a href="https://docs.djangoproject.com/en/1.9/topics/forms/">here</a> or use  django_bootstrap3
+*
