@@ -29,7 +29,6 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 and links for JavaScript, JQuery and CSS in the base.html:
 ```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 ```
 
