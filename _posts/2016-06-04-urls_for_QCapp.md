@@ -17,5 +17,5 @@ Maksim suggested to do something like:
 * /reagent/delete/1351/   <- delete reagent ID 1351
 * /reagent/?year=2016    <- filter for reagents
 
-<code>url(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')</code>
-<code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>
+I use the following sintax in the urls.py <code>url(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')</code> and can call the page by name in the template
+<code>&lt;a href="{% url "reagent_new_view %}"?&gt;</code>
