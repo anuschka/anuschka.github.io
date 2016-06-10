@@ -17,5 +17,6 @@ Maksim suggested to do something like:
 * /reagent/delete/1351/   <- delete reagent ID 1351
 * /reagent/?year=2016    <- filter for reagents
 
-In the urls.py  I define ```url(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')```
-and I can call it by name in the template ```<a href="{% url "reagent_new_view %}">Moj URL</a>```
+In the urls.py  I define
+
+```url(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')```
