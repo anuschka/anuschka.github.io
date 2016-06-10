@@ -17,5 +17,4 @@ Maksim suggested to do something like:
 * /reagent/delete/1351/   <- delete reagent ID 1351
 * /reagent/?year=2016    <- filter for reagents
 
-
-<code>&lt;a href="{% url "reagent_new_view %}"?&gt;</code>
+<p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>&lt;pre&gt;</code> block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.</p>
