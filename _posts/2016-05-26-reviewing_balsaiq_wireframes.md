@@ -33,8 +33,8 @@ and links for JavaScript, JQuery and CSS in the base.html:
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/static/style.css">
-<pre>
-<code>
+</pre>
+</code>
 
 
 I already had Bootstrap included in my base.html and was ready to create my html-s (reagents.html and reagents_new.html) for the app following the design created in the <a href="../assets/QCApp.pdf"> wireframes</a>.
