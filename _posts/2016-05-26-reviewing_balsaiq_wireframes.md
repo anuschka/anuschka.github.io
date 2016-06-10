@@ -17,7 +17,7 @@ We decided it would be best to create all the URLs, views and templates for the 
 * edit or delete a reagent
 
 
-I setup the static files directoy in settings.py
+I setup the static files directory in settings.py
 
 <pre>
 <code>
@@ -35,3 +35,6 @@ and links for JavaScript, JQuery and CSS in the base.html:
 <link rel="stylesheet" type="text/css" href="/static/style.css">
 <pre>
 <code>
+
+
+I already had Bootstrap included in my base.html and was ready to create my html-s (reagents.html and reagents_new.html) for the app following the design created in the <a href="../assets/QCApp.pdf"> wireframes</a>.
