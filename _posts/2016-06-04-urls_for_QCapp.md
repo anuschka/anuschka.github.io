@@ -17,5 +17,4 @@ Maksim suggested to do something like:
 * /reagent/delete/1351/   <- delete reagent ID 1351
 * /reagent/?year=2016    <- filter for reagents
 
-
-{% highlight %}Text here{% endhighlight %}
+<code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>
