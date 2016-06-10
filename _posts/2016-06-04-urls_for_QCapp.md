@@ -19,8 +19,6 @@ Maksim suggested to do something like:
 
 To display Yes/No in a table depending on the value of a field I use:
 
-<pre>
-<code>
+```
 {% if reagent.requiresIDcard %} Yes {% else %} No {% endif %}
-</code>
-</pre>
+```
