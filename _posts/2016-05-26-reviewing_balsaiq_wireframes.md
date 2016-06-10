@@ -27,11 +27,10 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 </pre>
 
 and links for JavaScript, JQuery and CSS in the base.html:
-<pre>
-<code>
+```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</code>
-</pre>
+```
 
 I already had Bootstrap included in my base.html and was ready to create my html-s (reagents.html and reagents_new.html) for the app following the design created in the <a href="../assets/QCApp.pdf"> wireframes</a>.
