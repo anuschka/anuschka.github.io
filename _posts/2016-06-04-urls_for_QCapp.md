@@ -20,7 +20,7 @@ Maksim suggested to do something like:
 This is how I define it in the urls.py:
 
 ```
-url(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')
+(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')
 ```
 
 This is how I call it in the template:
