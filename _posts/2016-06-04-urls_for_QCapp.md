@@ -16,5 +16,3 @@ Maksim suggested to do something like:
 * /reagent/edit/1351/    <- edit reagent ID 1351
 * /reagent/delete/1351/   <- delete reagent ID 1351
 * /reagent/?year=2016    <- filter for reagents
-
-I define the view's url like <code>&lt;url(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')&gt;</code> and call it with the name <code>&lt;a href="{% url "reagent_new_view %}"&gt;</code> in the template.
