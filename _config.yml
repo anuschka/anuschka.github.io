@@ -1,6 +1,9 @@
 # top level stuff you probably don't need to touch
 highlighter: rouge
-markdown: kramdown 
+markdown: kramdown
+input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge 
 rdiscount:
   extensions: [smart]
 permalink: /:title.html
