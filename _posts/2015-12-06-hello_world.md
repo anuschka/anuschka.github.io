@@ -10,4 +10,4 @@ tags:
 
 <p>Here and there I may post dog pictures <i class='glyphicon glyphicon-heart-empty'></i>.</p>
 
-<p style="text-align:center"><img src="../assets/images/scura.jpg" alt="Scura" /></p>.
+<p style="text-align:center"><img src="../assets/images/scura.jpg" width="300" alt="Scura" /></p>.
