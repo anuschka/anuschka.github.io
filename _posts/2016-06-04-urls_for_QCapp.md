@@ -16,3 +16,6 @@ Maksim suggested to do something like:
 * /reagent/edit/1351/    <- edit reagent ID 1351
 * /reagent/delete/1351/   <- delete reagent ID 1351
 * /reagent/?year=2016    <- filter for reagents
+
+
+{% highlight %}Text here{% endhighlight %}
