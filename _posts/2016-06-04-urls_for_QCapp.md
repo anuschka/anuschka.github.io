@@ -19,16 +19,12 @@ Maksim suggested to do something like:
 
 This is how I define it in the urls.py:
 
-<pre>
-<code>
+```
 url(r'^reagent/new/$', views.reagent_new_view, name='reagent_new_view')
-</code>
-</pre>
+```
 
 This is how I call it in the template:
 
-<pre>
-<code>
+```
 <a href="{% url "reagent_new_view %}">Moj URL</a>
-</code>
-</pre>
+```
