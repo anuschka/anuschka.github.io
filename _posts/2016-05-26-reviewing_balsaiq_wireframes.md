@@ -19,12 +19,10 @@ We decided it would be best to create all the URLs, views and templates for the 
 
 I setup the static files directory in settings.py
 
-<pre>
-<code>
+```
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
-</code>
-</pre>
+```
 
 and links for JavaScript, JQuery and CSS in the base.html:
 
