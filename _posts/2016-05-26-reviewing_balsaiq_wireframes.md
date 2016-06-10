@@ -1,0 +1,37 @@
+---
+layout: post
+title:  Reviewing Balsamiq wireframes
+tags:
+- Blog
+- Post
+---
+
+During our weekly Skype meeting Maksim reviewed the <a href="../assets/QCApp.pdf"> wireframes</a> I created for the application in <a href="https://balsamiq.com/">Balsamiq</a>.
+
+Maksim thought I did a good job with the wireframes and suggested I follow the <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete"> CRUD</a> approach when creating the frontend  and the backend for the app.
+
+We decided it would be best to create all the URLs, views and templates for the reagent object:
+
+* view all reagents
+* enter a new reagent
+* edit or delete a reagent
+
+
+I setup the static files directoy in settings.py
+
+<pre>
+<code>
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+</code>
+</pre>
+
+and links for JavaScript, JQuery and CSS in the base.html:
+
+<pre>
+<code>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+<pre>
+<code>
