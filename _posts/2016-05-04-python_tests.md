@@ -23,3 +23,5 @@ profile = UserProfile.objects.create(user=user, roles='A')
 </pre>
 
 in each test subclass solved the problem.
+
+Another useful thing was to use <code>print(response, response.status_code, response.content)</code> for debugging.
