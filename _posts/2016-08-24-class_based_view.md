@@ -21,11 +21,11 @@ Detailed descriptions, with full methods and attributes, for each of Django's cl
 
 We looked through reagents_view.py and reviewed which views do I translate from function based to class based.
 
-*reagent_view leave as function
-*reagentnewview is already a class based view
-*reagent_edit_view translate to a Class based FormView
-*delete_record_view leave as Function View but add decorator `@require.POST`. This is a decorator to require that a view accepts only the POST method.
-*get_search_results organize the code into separate functions:
+* reagent_view leave as function
+* reagentnewview is already a class based view
+* reagent_edit_view translate to a Class based FormView
+* delete_record_view leave as Function View but add decorator `@require.POST`. This is a decorator to require that a view accepts only the POST method.
+* get_search_results organize the code into separate functions:
 
 <pre>
 <code>
@@ -109,4 +109,4 @@ class LoginRequiredView(View):
 </code>
 </pre>
 
-Use django_bootstrap3 to clean templates for reagents using template tags.
+Use django_bootstrap3 to clean templates for reagents using template tags. This will clean the code significantly.
