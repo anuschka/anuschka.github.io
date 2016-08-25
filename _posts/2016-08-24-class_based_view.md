@@ -6,8 +6,9 @@ tags:
 - Post
 ---
 
-Use decorator for class based view that requires login reagent_new_view = login_required(ReagentNewView.as_view()).
-This is equivalent to
+Use decorator for class based view that requires login `reagent_new_view = login_required(ReagentNewView.as_view())`.
+
+This is equivalent to:
 <pre>
 <code>
 @login_required
@@ -16,14 +17,16 @@ def ...
 </pre>
 in function based views.
 
-Detailed descriptions, with full methods and attributes, for each of Django's class-based generic views. -> http://ccbv.co.uk/
+Detailed descriptions, with full methods and attributes, for each of Django's class-based generic views are <a href="http://ccbv.co.uk/">here.</a>
+
 We looked through reagents_view.py and reviewed which views do I translate from function based to class based.
 
-reagent_view leave as function
-reagentnewview is already a class based view
-reagent_edit_view translate to a Class based FormView
-delete_record_view leave as Function View but add decorator @require.POST. This is a decorator to require that a view accepts only the POST method.
-get_search_results organize the code into separate functions:
+*reagent_view leave as function
+*reagentnewview is already a class based view
+*reagent_edit_view translate to a Class based FormView
+*delete_record_view leave as Function View but add decorator `@require.POST`. This is a decorator to require that a view accepts only the POST method.
+*get_search_results organize the code into separate functions:
+
 <pre>
 <code>
 class SearchFormView(LoginRequredView):
@@ -92,7 +95,7 @@ class SearchFormView(LoginRequredView):
 </code>
 </pre>
 
-_get_search_result is a notation of my own *not Django function
+_get_search_result is a notation of my own function and not Django's function.
 
 Class based views are good for inheritance. Here is an example how to use inheritance:
 <pre>
@@ -105,4 +108,5 @@ class LoginRequiredView(View):
        super().dispatch(request, *args, **kwargs):
 </code>
 </pre>
+
 Use django_bootstrap3 to clean templates for reagents using template tags.
