@@ -21,6 +21,7 @@ __Lecture 1 – Introduction to Python:__
 * Operators and Branching
 
 __Lecture 2 – Core elements of programs:__
+
 * Bindings
 * Strings
 * Input/Output
@@ -30,12 +31,14 @@ __Lecture 2 – Core elements of programs:__
 * Guess and Check
 
 __Lecture 3 – Simple Programs:__
+
 * Approximate Solutions
 * Bisection Search
 * Floats and Fractions
 * Newton-Raphson
 
 __Lecture 4 – Functions:__
+
 * Decomposition and Abstraction
 * Functions and Scope
 * Keyword Arguments
@@ -48,6 +51,7 @@ __Lecture 4 – Functions:__
 * Files
 
 __Lecture 5 – Tuples and Lists:__
+
 * Tuples
 * Lists
 * List
@@ -55,6 +59,7 @@ __Lecture 5 – Tuples and Lists:__
 * Mutation, Aliasing, Cloning
 
 __Lecture 6 – Dictionaries:__
+
 * Functions as Objects
 * Dictionaries
 * Example with a Dictionary
