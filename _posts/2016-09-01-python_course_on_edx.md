@@ -87,3 +87,41 @@ __Lecture 9 – Classes and Inheritance:__
 * Methods
 * Classes Examples
 * Why OOP
+* Hierarchies
+* Your Own Types
+
+__Lecture 10 – An Extended Example:__
+
+* Building a Class
+* Viualizing the Hierarchy
+* Adding another Class
+* Using Inherited Methods
+* Gradebook Example
+* Generators
+
+__Lecture 11 – Computational Complexity:__
+
+* Linear Search
+* Bisection Search
+* Bogo and Bubble Sort
+* Selection Sort
+* Merge Sort
+
+__Lecture 12 – Searching and Sorting Algorithms:__
+
+* Memory storage
+* Indirection
+* Searching and sorting methods
+* Hashing
+
+__Lecture 13 – Visualization of Data:__
+
+* Visualizing Results
+* Overlapping Displays
+* Adding More Documentation
+* Changing Data Display
+* An Example
+
+__Lecture 14__
+
+* Summary
