@@ -65,3 +65,25 @@ __Lecture 6 – Dictionaries:__
 * Example with a Dictionary
 * Fibonacci and Dictionaries
 * Global Variables
+
+__Lecture 7 – Debugging:__
+
+* Programming Challenges
+* Classes of Tests
+* Bugs
+* Debugging
+* Debugging Examples
+
+__Lecture 8 – Assertions and Exceptions:__
+
+* Assertions
+* Exceptions
+* Exception Examples
+
+__Lecture 9 – Classes and Inheritance:__
+
+* Object Oriented Programming
+* Class Instances
+* Methods
+* Classes Examples
+* Why OOP
