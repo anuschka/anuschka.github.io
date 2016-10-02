@@ -12,6 +12,7 @@ I will be taking the <a href="https://courses.edx.org/courses/course-v1:MITx+6.0
 Here is the list of topics I will review/learn:
 
 __Lecture 1 – Introduction to Python:__
+
 * Knowledge
 * Machines
 * Languages
