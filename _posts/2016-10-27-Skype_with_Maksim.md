@@ -6,7 +6,7 @@ tags:
 - Post
 ---
 
-We disccussed the concept of args and kwargs:
+Maksim and I disccussed the concept of args and kwargs.
 
 So far I have learned that:
 
