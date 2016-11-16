@@ -61,3 +61,8 @@ reagent_edit_view = login_required(ReagentEditView.as_view())
 
 </code>
 </pre>
+
+I still need to figure out how to:
+
+* update context for active_page
+* why the checkbox value for RequiresIDCard does not get populated in the form
