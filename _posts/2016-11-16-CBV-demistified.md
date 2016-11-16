@@ -7,7 +7,7 @@ tags:
 ---
 
 I finally got a hang of CBV - Class Based Views in Django.
-The function based view for editing an existing reagent is above and the CBV is below.  
+The function based view for <b>editing an existing reagent</b> is above and the CBV is below.  
 <pre>
 <code>
 # @login_required
