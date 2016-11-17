@@ -62,7 +62,19 @@ reagent_edit_view = login_required(ReagentEditView.as_view())
 </code>
 </pre>
 
+In order to present some extra information in the context beyond that provided by the generic view
+I followed the documentation <a href="https://docs.djangoproject.com/en/1.10/topics/class-based-views/generic-display/#adding-extra-context/">here</a> and
+used the get_context_data method:
+
+<pre>
+<code>
+def get_context_data(self, **kwargs):
+      context = super(ReagentEditView, self).get_context_data(**kwargs)
+      context['active_page'] = 'reagent'
+      return context
+</code>
+</pre>
+
 I still need to figure out how to:
 
-* update context for active_page
 * why the checkbox value for RequiresIDCard does not get populated in the form
