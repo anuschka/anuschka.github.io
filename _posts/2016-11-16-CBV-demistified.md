@@ -75,6 +75,17 @@ def get_context_data(self, **kwargs):
 </code>
 </pre>
 
-I still need to figure out how to:
+The checkbox Boolean value for RequiresIDCard does not get populated in the Reagent edit form. Maksim suggested
+I try get_initial method instead of get_form. Unfortunately the Boolean field is still not ok.
 
-* why the checkbox value for RequiresIDCard does not get populated in the form
+<pre>
+<code>
+#    def get_initial(self):
+#        """
+#        Use the get_initial method to prepoulate the form with data
+#        """
+#        super(ReagentEditView, self).get_initial()
+#        reagent = Reagent.objects.get(id=self.args[0])
+#        return self.reagent
+</code>
+</pre>
