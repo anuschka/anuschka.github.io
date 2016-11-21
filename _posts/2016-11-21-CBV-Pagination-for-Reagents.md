@@ -50,7 +50,7 @@ reagent_view = login_required(ReagentAllView.as_view())
 <b>pagination.html snippet included in reagents.html</b>
 <pre>
 <code>
-{# my_library/templates/snippets/pagination.html #}
+
 {% if is_paginated %}
   <nav>
     <ul class="pagination">
