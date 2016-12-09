@@ -19,7 +19,8 @@ and send it to the template in via context dictionary:
 
 <pre>
 <code>
-context = self.get_context_data(form=form, object_list=self.object_list, active_page='reagent' ,query=self.request.GET.get('keyword'), GET_params=GET_params)
+context = self.get_context_data(form=form, object_list=self.object_list,
+  active_page='reagent' ,query=self.request.GET.get('keyword'), GET_params=GET_params)
 </code>
 </pre>
 
