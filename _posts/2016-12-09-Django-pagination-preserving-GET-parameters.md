@@ -26,6 +26,6 @@ context = self.get_context_data(form=form, object_list=self.object_list,
 
 Second thing you need to do is use it specify it in the url calls (href) in the template - an example (extending the basic pagination html to handle extra param condition):
 
-```
+```python
 <a href="?{{GET_params.urlencode}}&page={{ page_obj.previous_page_number }}">
 ```
