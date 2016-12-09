@@ -14,13 +14,17 @@ First copy the GET params to a variable (in view):
 GET_params = request.GET.copy()
 </code>
 </pre>
+
 and send it to the template in via context dictionary:
+
 <pre>
 <code>
 context = self.get_context_data(form=form, object_list=self.object_list, active_page='reagent' ,query=self.request.GET.get('keyword'), GET_params=GET_params)
 </code>
 </pre>
+
 Second thing you need to do is use it specify it in the url calls (href) in the template - an example (extending the basic pagination html to handle extra param condition):
+
 <pre>
 <code>
 {% if page_obj.has_previous %}
