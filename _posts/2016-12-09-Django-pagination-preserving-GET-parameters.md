@@ -28,20 +28,6 @@ Second thing you need to do is use it specify it in the url calls (href) in the 
 
 <pre>
 <code>
-
-{% if page_obj.has_previous %}
-  <li>
-    <a href="?{{GET_params.urlencode}}&page={{ page_obj.previous_page_number }}">
-      <span>Previous</span>
-    </a>
-  </li>
-{% else %}
-  <li class="disabled">
-    <a href="#">
-      <span>Previous</span>
-    </a>
-  </li>
-{% endif %}
-
+context = self.get_context_data(form=form, object_list=self.object_list, active_page='reagent', query=self.request.GET.get('keyword'), GET_params=GET_params)
 </code>
 </pre>
