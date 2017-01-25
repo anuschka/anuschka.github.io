@@ -9,7 +9,9 @@ tags:
 I am amazed with how much code one can save using django_bootstrap3 forms. Here is a visual.
 
 <b>Before</b>:
-`<form method="post" role="form">
+<pre>
+<code>
+<form method="post" role="form">
     {% csrf_token %}
     <div class="form-group has-feedback">
       <label class="control-label" for="type">Reagent Type</label>
@@ -77,7 +79,9 @@ I am amazed with how much code one can save using django_bootstrap3 forms. Here 
               <a href="#" onclick="clicked();" class="btn btn-danger">Delete reagent</a>
           </div>
     </div>
-</form>`
+</form>
+</code>
+</pre>
 
 <b>After using django_bootstrap3 form</b>:
 <pre>
