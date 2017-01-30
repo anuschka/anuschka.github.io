@@ -12,7 +12,7 @@ I am amazed with how much code one can save using django_bootstrap3 forms. Here 
 <pre>
 <code>
 <form method="post" role="form">
-    {% csrf_token %}
+    {{ "{% csrf_token %} %}
     <div class="form-group has-feedback">
       <label class="control-label" for="type">Reagent Type</label>
       <input type="text" class="form-control" name="type" placeholder="Reagent Type"
