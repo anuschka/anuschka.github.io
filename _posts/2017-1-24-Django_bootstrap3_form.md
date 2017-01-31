@@ -86,7 +86,7 @@ I am amazed with how much code one can save using django_bootstrap3 forms. Here 
 
 ```
 <form action="/reagent/{{ object.id }}/edit/" method="post" role="form">
-    {% csrf_token %}
+    {{ "{% csrf_token "}} %}
     {% bootstrap_form form  %}
     {% buttons %}
     <div class="reagent_toolbar">
