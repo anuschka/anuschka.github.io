@@ -83,8 +83,23 @@ I am amazed with how much code one can save using django_bootstrap3 forms. Here 
 ```
 
 <b>After using django_bootstrap3 form</b>:
-<pre>
-<code>
 
-</code>
-</pre>
+```
+<form action="/reagent/{{ object.id }}/edit/" method="post" role="form">
+    {% csrf_token %}
+    {% bootstrap_form form  %}
+    {% buttons %}
+    <div class="reagent_toolbar">
+      <input type="submit" class="btn btn-primary" value="Save" />
+      <a href="/reagent/" class="btn btn-default" onclick="return App.click(this);">Cancel</a>
+      <div class="pull-right">
+          <a href="#" onclick="clicked();" class="btn btn-danger">Delete reagent</a>
+      </div>
+    </div>
+    {% endbuttons %}
+</form>
+
+<form method="post" action="/reagent/{{ object.id }}/delete/" id="deleteForm">
+  {% csrf_token %}
+</form>
+```
