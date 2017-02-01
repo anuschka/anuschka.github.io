@@ -100,6 +100,6 @@ I am amazed with how much code one can save using django_bootstrap3 forms. Here 
 </form>
 
 <form method="post" action="/reagent/{{ object.id }}/delete/" id="deleteForm">
-  {% csrf_token %}
+  {{ "{% csrf_token "}} %}
 </form>
 ```
