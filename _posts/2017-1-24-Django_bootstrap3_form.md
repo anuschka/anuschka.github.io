@@ -96,7 +96,7 @@ I am amazed with how much code one can save using django_bootstrap3 forms. Here 
           <a href="#" onclick="clicked();" class="btn btn-danger">Delete reagent</a>
       </div>
     </div>
-    {% endbuttons %}
+    {{ "{% endbuttons "}} %}
 </form>
 
 <form method="post" action="/reagent/{{ object.id }}/delete/" id="deleteForm">
