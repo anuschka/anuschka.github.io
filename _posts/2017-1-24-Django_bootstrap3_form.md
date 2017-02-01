@@ -79,7 +79,7 @@ I am amazed with how much code one can save using django_bootstrap3 forms. Here 
               <a href="#" onclick="clicked();" class="btn btn-danger">Delete reagent</a>
           </div>
     </div>
-</form>
+{{ "</form> %}
 ```
 
 <b>After using django_bootstrap3 form</b>:
