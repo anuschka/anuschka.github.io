@@ -1,4 +1,4 @@
-.nav {
+nav {
   justify-content: space-evenly;
   align-items: center;
   padding-block: 25px;
@@ -11,3 +11,19 @@
   list-style: none;
   display: flex;
 }
+
+@media (max-width: 768px){
+nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}}
+
+@media (max-width: 768px){
+.nav-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}}
