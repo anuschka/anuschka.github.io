@@ -46,13 +46,6 @@
   opacity: 1;
 }
 
-.blog-main {
-  gap: var(--gap);
-  grid-template-columns: 300px 1fr;
-  margin-bottom: 100px;
-  display: grid;
-}
-
 .cards {
     display: flex;
     justify-content: space-between;
@@ -129,6 +122,13 @@
 
 }
 
+.blog-post-title,
+.blog-content,
+.blog-post-footer{
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
 figcaption {
     background-color: var(--gray-300);
     padding: 1rem;
@@ -140,4 +140,25 @@ figcaption {
 .card-button{
     display: flex;
     justify-content: flex-end;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "nav"
+        "main"
+        "footer";
+}
+
+nav {
+    grid-area: "nav";
+}
+
+main {
+    grid-area: "main";
+}
+
+footer {
+    grid-area: "footer";
 }
