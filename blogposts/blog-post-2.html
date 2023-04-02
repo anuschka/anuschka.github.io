@@ -17,106 +17,133 @@
     <title>Blog Page 2</title>
 </head>
 <body>
-<header>
-    <nav>
-        <div class="nav-logo">
+<div class="grid">
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img
+                        src="/assets/images/logo.png"
+                        alt="Logo"
+                        width="45"
+                        height="43"
+                />
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html" class="btn btn--nav">Home</a></li>
+                <li><a href="blog-post-1.html" class="btn btn--nav">BlogPost1</a></li>
+                <li><a href="blog-post-2.html" class="btn btn--nav">BlogPost2</a></li>
+                <li><a href="blog-post-3.html" class="btn btn--nav">BlogPost3</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="blog-post-title">
+            <h1 class="title--sm">Blog Post Title</h1>
+            <div class="blog-author text--sm">
+                <p>Scura Author</p>
+                <p>April 1, 2023</p>
+
+                <div class="social-icons">
+                    <p>Share on:</p>
+                    <ul>
+                        <li>
+                            <img
+                                    width="32"
+                                    height="32"
+                                    alt="Facebook icon"
+                                    src="/assets/images/facebook-icon.svg"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                    width="32"
+                                    height="32"
+                                    alt="Facebook icon"
+                                    src="/assets/images/twitter-icon.svg"
+                            />
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <div class="blog-content">
+            <figure>
+                <img
+                        src="/assets/images/scura4_1_1.jpg"
+                        alt="Recent Scura"
+                        class="blog-teaser-image"
+                />
+                <figcaption>Python in Ljubljana</figcaption>
+            </figure>
+            <h2>Title before the content</h2>
+            <p class="text--sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit
+                anim id est laborum.
+            </p>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature. The world's leading conservation
+                organization,
+                WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5
+                million globally.
+            </blockquote>
+            <h3>Title after the content</h3>
+            <p class="text--sm">
+                Lorem ipsum dolor sit amet, <a href="https://example.come">consectetur adipiscing elit</a>, sed do
+                eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in
+                culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </main>
+    <footer class="blog-post-footer">
+
+        <div class="side">
             <img
                     src="/assets/images/logo.png"
-                    alt="Logo"
+                    alt="Scura Logo"
                     width="45"
                     height="43"
             />
-        </div>
-        <ul class="nav-links">
-            <li><a href="../index.html" class="btn btn--nav">Home</a></li>
-            <li><a href="blog-post-1.html" class="btn btn--nav">BlogPost1</a></li>
-            <li><a href="blog-post-2.html" class="btn btn--nav">BlogPost2</a></li>
-            <li><a href="blog-post-3.html" class="btn btn--nav">BlogPost3</a></li>
-        </ul>
-
-    </nav>
-</header>
-<main>
-    <section>
-        <h1 class="title--sm">Blog Post Title</h1>
-        <div class="blog-author text--sm">
-            <p>Scura Author</p>
-            <p>April 1, 2023</p>
-
-            <div class="social-icons">
-                <p>Share on:</p>
-                <ul>
-                    <li>
-                        <img
-                                width="32"
-                                height="32"
-                                alt="Facebook icon"
-                                src="/assets/images/facebook-icon.svg"
-                        />
-                    </li>
-                    <li>
-                        <img
-                                width="32"
-                                height="32"
-                                alt="Facebook icon"
-                                src="/assets/images/twitter-icon.svg"
-                        />
-                    </li>
-                </ul>
-
+            <div>
+                <p class="text--sm footer-name">&copy; 2023 Scura</p>
+                <p class="text--sm footer-rights">All rights reserved.</p>
             </div>
         </div>
-    </section>
-    <div class="blog-content">
-        <img
-                src="../assets/images/toptal-image.gif"
-                alt="Toptal image"
-                class="blog-teaser-image"
-        />
-        <p class="text--sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <blockquote cite="http://www.worldwildlife.org/who/index.html">
-            For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
-        </blockquote>
-    </div>
-</main>
-<footer>
-
-    <div class="side">
-        <img
-                src="/assets/images/logo.png"
-                alt="Scura Logo"
-                width="45"
-                height="43"
-        />
-        <div>
-            <p class="text--sm footer-name">&copy; 2023 Scura</p>
-            <p class="text--sm footer-rights">All rights reserved.</p>
+        <div class="side">
+            <p class="text--sm">@example on Social Media</p>
+            <ul class="footer-sm">
+                <li>
+                    <img
+                            width="32"
+                            height="32"
+                            alt="Facebook icon"
+                            src="/assets/images/facebook-icon.svg"
+                    />
+                </li>
+                <li>
+                    <img
+                            width="32"
+                            height="32"
+                            alt="Facebook icon"
+                            src="/assets/images/twitter-icon.svg"
+                    />
+                </li>
+            </ul>
         </div>
-    </div>
-    <div class="side">
-        <p class="text--sm">@example on Social Media</p>
-        <ul class="footer-sm">
-            <li>
-                <img
-                        width="32"
-                        height="32"
-                        alt="Facebook icon"
-                        src="/assets/images/facebook-icon.svg"
-                />
-            </li>
-            <li>
-                <img
-                        width="32"
-                        height="32"
-                        alt="Facebook icon"
-                        src="/assets/images/twitter-icon.svg"
-                />
-            </li>
-        </ul>
-    </div>
 
-</footer>
+    </footer>
+</div>
 </body>
 </html>
