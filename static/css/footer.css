@@ -20,10 +20,13 @@ footer .side {
 
 .footer-name {
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 .footer-rights {
   margin-top: 0;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {

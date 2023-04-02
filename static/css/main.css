@@ -6,6 +6,8 @@
     font-family: 'Poppins', sans-serif;
    --gap: 50px;
    --gray-300: #d1d5db;
+   --gray-400: #9ca3af;
+   --gray-600: #52525B;
 }
 
 .btn {
